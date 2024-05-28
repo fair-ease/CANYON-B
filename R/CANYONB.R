@@ -106,7 +106,7 @@ CANYONB <- function(date,lat,lon,pres,temp,psal,doxy,param,epres,etemp,epsal,edo
   # No input checks! Assumes informed use, e.g., same dimensions for all
   # inputs, ...
 
-  inputsdir='' # relative or absolute path to CANYON-B wgts files
+  inputsdir='../data/' # relative or absolute path to CANYON-B wgts files
 
 
   ## Nothing below here should need to be changed by the user ##
