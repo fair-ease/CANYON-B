@@ -105,9 +105,8 @@ CANYONB <- function(date,lat,lon,pres,temp,psal,doxy,param,epres,etemp,epsal,edo
 
   # No input checks! Assumes informed use, e.g., same dimensions for all
   # inputs, ...
-
-  inputsdir='CANYON-B/data/' # relative or absolute path to CANYON-B wgts files
-
+  devtools::load_all()
+  inputsdir='' # relative or absolute path to CANYON-B wgts files
   ## Nothing below here should need to be changed by the user ##
 
   if (missing(date)) {date<-rep("2014-12-09 08:45",2); lat<-17.6*c(1,1); lon<--24.3*c(1,1); pres<-180*c(1,1); temp<-16*c(1,1); psal<-36.1*c(1,1);doxy<-104*c(1,1); } # test values
@@ -168,7 +167,7 @@ CANYONB <- function(date,lat,lon,pres,temp,psal,doxy,param,epres,etemp,epsal,edo
   for (i in (1:noparams)){
     if(paramflag[i]){ # calculate only desired parameters
       # load weights et al. from file
-      inwgts=read.table(paste0(inputsdir,"wgts_",paramnames[i],".rda"));
+      inwgts=read.table(paste0(inputsdir,"wgts_",paramnames[i],"txt"));
 
       noparsets=ncol(inwgts)-1; # number of networks in committee
       # Input normalization
