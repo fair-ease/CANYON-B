@@ -1,4 +1,4 @@
-#' (Data) wgts_pH.RData
+#' (Data) wgts_pH.rda
 #'
 #' Some description on the data 
 #'

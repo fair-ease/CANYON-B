@@ -1,4 +1,4 @@
-#' (Data) wgts_pCO2.RData
+#' (Data) wgts_pCO2.rda
 #'
 #' Some description on the data 
 #'

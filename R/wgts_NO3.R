@@ -1,4 +1,4 @@
-#' (Data) wgts_NO3.RData
+#' (Data) wgts_NO3.rda
 #'
 #' Some description on the data 
 #'

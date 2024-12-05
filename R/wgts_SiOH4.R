@@ -1,4 +1,4 @@
-#' (Data) wgts_SiOH4.RData
+#' (Data) wgts_SiOH4.rda
 #'
 #' Some description on the data 
 #'

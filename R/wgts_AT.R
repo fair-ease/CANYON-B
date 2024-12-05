@@ -1,6 +1,6 @@
-#' (Data) wgts_AT.RData
+#' (Data) wgts_AT.rda
 #'
-#' Some description on the data 
+#' Some description on the data
 #'
 #' abstract from research article:
 #'
@@ -15,7 +15,7 @@
 #' @author
 #'     Henry Bittig
 #'
-#'     
+#'
 #'
 #' @keywords data
 #'

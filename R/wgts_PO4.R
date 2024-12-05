@@ -1,4 +1,4 @@
-#' (Data) wgts_PO4.RData
+#' (Data) wgts_PO4.rda
 #'
 #' Some description on the data 
 #'
