@@ -1,6 +1,6 @@
 Package: canyonb
 Title: Estimate Open Ocean CO2 Variables and Macronutrients from T, S and O2 data
-Version: 0.9
+Version: 0.9.2
 Authors@R: 
     person("Henry", "Bittig", email = "henry.bittig@io-warnemuende.de", role = c("aut", "cre"))
 Description: An alternative to static climatologies: Robust estimation of open ocean CO2 variables and nutrient concentrations from T, S and O2 data using Bayesian neural networks.
