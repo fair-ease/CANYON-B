@@ -21,5 +21,5 @@
 #'
 #' @examples
 #' data(wgts_SiOH4)
-NA
+"wgts_SiOH4"
 

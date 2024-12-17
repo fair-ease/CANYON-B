@@ -21,5 +21,5 @@
 #'
 #' @examples
 #' data(wgts_pH)
-NA
+"wgts_pH"
 

@@ -148,9 +148,9 @@ CANYONB <- function(date,lat,lon,pres,temp,psal,doxy,param,epres,etemp,epsal,edo
   for (i in (1:noparams)){
     if(paramflag[i]){ # calculate only desired parameters
       # load weights et al. from file
-      inwgts=data("wgts_AT");
-        #paste0("wgts_",paramnames[i]));
-
+      filename=system.file("extdata", paste0("wgts_",paramnames[i],".txt"), package = "canyonb")
+      inwgts=read.table(filename);
+      
       noparsets=ncol(inwgts)-1; # number of networks in committee
       # Input normalization
       if (i>4) { # nuts

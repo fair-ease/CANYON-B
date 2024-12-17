@@ -21,5 +21,5 @@
 #'
 #' @examples
 #' data(wgts_pCO2)
-NA
+"wgts_pCO2"
 

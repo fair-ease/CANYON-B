@@ -21,5 +21,5 @@
 #'
 #' @examples
 #' data(wgts_NO3)
-NA
+"wgts_NO3"
 

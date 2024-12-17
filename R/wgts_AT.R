@@ -21,5 +21,5 @@
 #'
 #' @examples
 #' data(wgts_AT)
-NA
+"wgts_AT"
 
