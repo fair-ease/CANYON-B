@@ -1,3 +1,24 @@
+#' CANYONB neural network
+#'
+#' @param date (UTC) as string ("yyyy-mm-dd HH:MM")
+#' @param lat latitude / °N  (-90 90)
+#' @param lon longitude / °E (-180 180) or (0 360)
+#' @param pres pressure / dbar
+#' @param temp in-situ temperature / °C
+#' @param psal salinity
+#' @param doxy dissolved oxygen / umol kg-1 (!)
+#' @param param character vector of variable names to be predicted ("AT", "CT", "pH", "pCO2",
+#         "NO3", "PO4", "SiOH4") (optional; defaults to all variables)
+# default values for input errors (optional):
+#' @param epres 0.5 dbar
+#' @param etemp 0.005 °C
+#' @param epsal 0.005 psu
+#' @param edoxy 1 % of doxy
+#'
+#' @return
+#' @export
+#'
+#' @examples
 CANYONB <- function(date,lat,lon,pres,temp,psal,doxy,param,epres,etemp,epsal,edoxy){
   # function out=CANYONB(date,lat,lon,pres,temp,psal,doxy,param,epres,etemp,epsal,edoxy)
   #
